@@ -177,10 +177,19 @@ section {
   font-weight: 600;
   text-align: center;
   margin-left: 30px;
-  color: #7d32a8;
-  background: #333333;
+  /*color: #3D5A5B;*/
+  background:  #FEBEB0;
   border-radius: 0.5rem;
   transition: all 0.5s ease;
+/*margin-left: 25px;*/
+  position:relative;
+}
+
+.btn--home{
+  top: 80%;
+  left:20%;
+  position:absolute;
+  transform: translateX(-50px);
 }
 
 .btn:hover {
@@ -232,6 +241,13 @@ section {
   font-size: 25px;
   margin-bottom: 10px;
   color: #3D5A5B;
+}
+
+.main__content h2,
+.portfolio h2,
+.about__content h2{
+  text-decoration:solid 3px underline;
+text-decoration-color:sandybrown;
 }
 
 .main__content h4 {
